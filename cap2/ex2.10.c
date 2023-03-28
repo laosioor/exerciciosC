@@ -14,6 +14,18 @@ int main() {
     printf("c: ");
     scanf(" %f", &c);
 
-    
+
+    if ( (a + b > c && c > (a-b)) && (a + c > b && b > (a-c)) && (b + c > a && a > (b-c)) ) {
+        if (a == b && b == c) {
+            printf("EQUILATERO");
+        } else if (a == b || b == c || a == c) {
+            printf("ISOCELES");
+        } else {
+            printf("ESCALENO");
+        }
+    } else {
+        printf("As medidas fornecidas dos lados na representam um triangulo valido!");
+    }
+
     return 0;
 }
