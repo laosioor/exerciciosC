@@ -6,7 +6,8 @@ int main() {
     int n2;
     int n3;
 
-    int p1, p2, p3; // posições p1: A, p2: B e p3: C
+    int t; // variavel temporaria para guardar um numero antes de declara-lo em outra variavel
+
     printf("N1: ");
     scanf("%d", &n1);
 
@@ -17,21 +18,28 @@ int main() {
     scanf("%d", &n3);
 
 
-    
-    if (n1 <= n2 && n2 <= n3) {         // A B C
-        p1 = n1; p2 = n2; p3 = n3;
-    } else if (n1 <= n3 && n3 <= n2) {  // A C B
-        p1 = n1; p2 = n3; p3 = n2;
-    } else if (n2 <= n1 && n1 <= n3) {  // B A C
-        p1 = n2; p2 = n1; p3 = n3;
-    } else if (n2 <= n3 && n2 <= n1) {  // B C A
-        p1 = n2; p2 = n3; p3 = n1;
-    } else if (n3 <= n1 && n1 <= n2) {  // C A B
-        p1 = n3; p2 = n1; p3 = n2;
-    } else if (n3 <= n2 && n2 <= n1) {  // C B A
-        p1 = n3; p2 = n2; p3 = n1;
-    } 
+    // os dois primeiros ifs caso sejam falsos significam que N3 é o maior número digitado
 
-    printf("Ordem crescente: %d <= %d <= %d", p1, p2, p3);
+    if (n3 <= n1) { 
+        t = n3; // guarda n3 em t para ser declarado depois em n1
+        n3 = n1; // n3 (ou, o maior numero) recebe n1 que foi provado como sendo maior que o n3 (o terceiro numero digitado)
+        n1 = t; // n1 (ou, o menor numero) recebe t que recebeu n3
+    }
+
+    // caso o if acima tenha sido executado, já temos valores do maior e menor número por enquanto
+    if (n3 <= n2) {
+        t = n3; 
+        n3 = n2;
+        n2 = t;
+    } //este if é quase identico ao anterior, apenas serve para saber se os segundo numero digitado é maior que o terceiro digitado
+
+    // caso os dois primeiros ifs sejam falsos, basta apenas saber entre n1 e n2 qual é o menor
+    if (n2 <= n1) {
+        t = n2;
+        n2 = n1;
+        n1 = t;
+    }
+
+    printf("Ordem crescente: %d <= %d <= %d", n1, n2, n3);
     return 0;
 }
