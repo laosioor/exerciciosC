@@ -15,7 +15,7 @@ int main() {
     scanf(" %f", &c);
 
 
-    if ( (a + b > c && c > (a-b)) && (a + c > b && b > (a-c)) && (b + c > a && a > (b-c)) ) {
+    if ( (a + b > c && c > abs(a-b)) && (a + c > b && b > abs(a-c)) && (b + c > a && a > abs(b-c)) ) {
         if (a == b && b == c) {
             printf("EQUILATERO");
         } else if (a == b || b == c || a == c) {
