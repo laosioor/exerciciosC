@@ -14,17 +14,12 @@ int main() {
     printf("Nota Optativa: ");
     scanf(" %f", &n3);
 
-    if ((n3 < 0) || (n3 < n2 && n3 < n1)) {
-        m = (n1 + n2) / 2;
-    } else {
-        if (n2 < n1) {
-            t = n1;
-            n2 = n1;
-            n1 = t;
-        }
-
-        m = (n2 + n3) / 2;
+    if ((n3 >= 0) && (n3 > n2 || n3 > n1)) {
+        if (n2 < n1) { n2 = n3; } 
+        else {n1 = n3;}
     }
+
+    m = (n1 + n2) / 2;
 
     printf("Media: %.2f\n", m);
     if (m >= 6) {
