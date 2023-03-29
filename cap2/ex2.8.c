@@ -33,7 +33,7 @@ int main() {
         n1 = t;
     }
 
-    printf("A soma dos dois numeros maiores fornecidos e igual a %.2f", n2 + n3);
+    printf("A soma dos dois numeros maiores fornecidos e %.2f", n2 + n3);
 
     return 0;
 }

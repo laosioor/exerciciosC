@@ -1,4 +1,5 @@
-// Código feito pelo *coitado* Aloísio M. Lingo Filho BV3032558
+// Código feito pelo *coitado* Aloísio M. Lingo Filho BV3032558 em 29/03 
+// ANTES DE VER O GABARITO EM, FIZ A MÃO
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,11 +9,13 @@ int main() {
     printf("Numero entre 1 e 3999: ");
     scanf(" %d", &n);
     
-    if (n > 3999) {
-        printf("INVALIDO");
+
+    if (n > 3999 || n == 0) {
+        printf("Numero incorreto!");
+        n = -1;
     }
 
-    printf("%d = ", n);
+    if (n != -1) {printf("%d = ", n);}
     
     if (n >= 3000 && n <= 3999) {
         printf("MMM");
@@ -124,6 +127,9 @@ int main() {
     if (n == 1) {
         printf("I");
     }
+
+    
+
 
     return 0;
 }

@@ -8,10 +8,10 @@ int main() {
     printf("Idade: ");
     scanf(" %d", &i);
 
-    if (i < 16) {printf("Nao eleitor");}
+    if (i < 16) {printf("Nao eleitor.");}
     else if (i >= 18 && i <= 65)
-    {printf("Eleitor obrigatorio");}
-    else {printf("Eleitor facultativo");}
+    {printf("Eleitor obrigatorio.");}
+    else {printf("Eleitor facultativo.");}
     
     return 0;
 }

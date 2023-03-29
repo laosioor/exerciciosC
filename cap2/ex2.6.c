@@ -9,9 +9,9 @@ int main() {
     scanf("%f", &n);
 
     if (n > 20) {
-        printf("Metade de %.2f: %.2f", n, n/2);
+        printf("A metade de %.2f e %.2f", n, n/2);
     } else {
-        printf("Triplo de %.2f: %.2f", n, n*3);
+        printf("O triplo de %.2f e %.2f", n, n*3);
     }
     return 0;
 }

@@ -14,14 +14,14 @@ int main() {
 
     if (l == 3) {
         printf("TRIANGULO");
-        printf("Perimetro: %.2f", l * m);
+        printf(" de perimetro %.2f", l * m);
     } else if (l == 4) {
         printf("QUADRADO");
-        printf("Perimetro: %.2f", m * m);
+        printf(" de area %.2f", m * m);
     } else if (l == 5) {
         printf("PENTAGONO");
     } else {
-        printf("POLIGONO NAO IDENTIFICADO");
+        printf("Poligono nao identificado");
     }
     
     return 0;

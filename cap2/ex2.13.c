@@ -23,11 +23,11 @@ int main() {
 
     printf("Media: %.2f\n", m);
     if (m >= 6) {
-        printf("APROVADO");
+        printf("Aprovado!");
     } else if (m >= 4 && m < 6) {
-        printf("EXAME");
+        printf("Exame.");
     } else {
-        printf("REPROVADO");
+        printf("Reprovado...");
     }
 
     return 0;

@@ -41,6 +41,6 @@ int main() {
         n1 = t;
     }
 
-    printf("Ordem decrescente: %d => %d => %d", n3, n2, n1);
+    printf("%d >= %d >= %d", n3, n2, n1);
     return 0;
 }

@@ -14,7 +14,7 @@ int main() {
     if ((n1 + n2) > 10) {
         printf("Os numeros fornecidos foram %.2f e %.2f", n1, n2);
     } else {
-        printf("A subtracao entre %.2f e %.2f = %.2f", n1, n2, n1-n2);
+        printf("A subtracao entre %.2f e %.2f e igual a %.2f", n1, n2, n1-n2);
     }
     
     return 0;

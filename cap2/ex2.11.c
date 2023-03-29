@@ -15,18 +15,19 @@ int main() {
     scanf(" %f", &y);
 
     if (a + b + y != 180) {
-        printf("Nao e um triangulo :(");
+        printf("As medidas fornecidas dos angulos nao representam um triangulo valido!");
     } else {    
+        printf("Triangulo");
         if (a == 90 || b == 90 || y == 90) {
-            printf("Triangulo retangulo");
+            printf(" RETANGULO");
         }
 
         else if (a > 90 || b > 90 || y > 90) {
-            printf("Triangulo obtsuangulo");
+            printf(" OBTUSANGULO");
         }
 
         else if (a < 90 && b < 90 && y < 90) {
-            printf("Triangulo acutangulo");
+            printf(" ACUTANGULO");
         }
     }
     

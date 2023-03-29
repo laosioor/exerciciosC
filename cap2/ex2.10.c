@@ -20,18 +20,19 @@ int main() {
     
     printf("c: ");
     scanf(" %f", &c);
-
-
+    
     if ( (a + b > c && c > mod(a-b)) && (a + c > b && b > mod(a-c)) && (b + c > a && a > mod(b-c)) ) {
+        printf("Triangulo ");
+        
         if (a == b && b == c) {
             printf("EQUILATERO");
         } else if (a == b || b == c || a == c) {
-            printf("ISOCELES");
+            printf("ISOSCELES");
         } else {
             printf("ESCALENO");
         }
     } else {
-        printf("As medidas fornecidas dos lados na representam um triangulo valido!");
+        printf("As medidas fornecidas dos lados nao representam um triangulo valido!");
     }
 
     return 0;

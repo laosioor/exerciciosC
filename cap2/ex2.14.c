@@ -14,7 +14,7 @@ int main() {
     
     imc = p/(a*a);
 
-    printf("%.2f\n", imc);
+    printf("IMC: %.2f\n", imc);
     
     if (imc < 17.0) {printf("Voce esta muito abaixo do peso ideal!");}
     else if (17.0 <= imc && imc < 18.5) {printf("Voce esta abaixo do peso ideal!");}
