@@ -1,5 +1,4 @@
-// Código feito pelo *coitado* Aloísio M. Lingo Filho BV3032558 em 29/03 
-// ANTES DE VER O GABARITO EM, FIZ A MÃO
+// Código feito pelo *coitado* Aloísio M. Lingo Filho BV3032558
 #include <stdio.h>
 #include <stdlib.h>
 
