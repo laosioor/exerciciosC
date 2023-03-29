@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+float mod(float x) { // função que retorna o módulo de algum float
+    if (x >= 0) { return x; }
+    else {
+        return -x;
+    }
+}
+
 int main() {
     float a, b, c;
 
@@ -15,7 +22,7 @@ int main() {
     scanf(" %f", &c);
 
 
-    if ( (a + b > c && c > abs(a-b)) && (a + c > b && b > abs(a-c)) && (b + c > a && a > abs(b-c)) ) {
+    if ( (a + b > c && c > mod(a-b)) && (a + c > b && b > mod(a-c)) && (b + c > a && a > mod(b-c)) ) {
         if (a == b && b == c) {
             printf("EQUILATERO");
         } else if (a == b || b == c || a == c) {
