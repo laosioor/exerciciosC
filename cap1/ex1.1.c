@@ -3,7 +3,7 @@
 
 int main() {
 
-    printf("Ola Mundaooo irraaa!!!!!");
+    printf("Ola Mundo!");
     
     return 0;
 }

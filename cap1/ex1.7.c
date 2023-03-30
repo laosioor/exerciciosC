@@ -14,7 +14,7 @@ int main(){
 
     a = l * l;
 
-    printf("Perimetro = %d  \n", p);
+    printf("Perimetro = %d\n", p);
     printf("Area = %d", a);
 
     return 0;

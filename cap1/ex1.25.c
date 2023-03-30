@@ -10,6 +10,6 @@ int main() {
 
     c = (f-32)/1.8;
 
-    printf("%.2f graus em Fahrenheit correspondem a %.2f graus Celsius", f, c);
+    printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius", f, c);
     return 0;
 }

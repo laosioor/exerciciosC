@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    printf("#######\n#\t\t\t#\n#\t\t\t#\n#\t\t\t#\n#\t\t\t#\n#######");
+    printf("########\n#      #\n#      #\n#      #\n#      #\n########");
 
     return 0;
 }

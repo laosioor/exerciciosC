@@ -14,7 +14,7 @@ int main() {
 
     m = (n1 + n2) / 2;
 
-    printf("Media: %d", m);
+    printf("Media aritmetica: %d", m);
 
     return 0;
 }

@@ -13,6 +13,6 @@ int main() {
 
     a = (b*h)/2;
 
-    printf("Área: %.2f", a);
+    printf("Area = %.2f", a);
     return 0;
 }
