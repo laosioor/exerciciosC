@@ -126,9 +126,6 @@ int main() {
     if (n == 1) {
         printf("I");
     }
-
     
-
-
     return 0;
 }
