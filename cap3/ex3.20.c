@@ -3,137 +3,57 @@
 #include <stdlib.h>
 
 int main() {
-    for (int i = 1; i <= 1; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 2; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 3; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 4; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        printf("*");
-    }
-    printf("\n");
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 4; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 3; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 2; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 1; i++) {
-        printf("*");
-    }
-    printf("\n");
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i != 4) {
-            printf(" ");
-        } else {
-            printf("*");
-        }
-    }
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 3) {
-            printf(" ");
-        } else {
-            printf("*");
-        }
-    }
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 2) {
-            printf(" ");
-        } else {
-            printf("*");
-        }
-    }
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 1) {
-            printf(" ");
-        } else {
-            printf("*");
-        }
-    }
-    printf("\n");
+    for (int i = 0; i < 5; i++) {
 
-    for (int i = 0; i < 5; i++)
-    {
-        printf("*");
-    }
-    
-    printf("\n\n");
-
-    for (int i = 0; i < 5; i++)
-    {
-        printf("*");
-    }
-    
-    printf("\n");
-
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 1) {
-            printf(" ");
-        } else {
+        for (int j = 0; j < i + 1; j++) {
             printf("*");
         }
+
+        printf("\n");
     }
 
     printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 2) {
-            printf(" ");
-        } else {
+
+    for (int i = 5; i > 0; i--) {
+        
+        for (int j = 0; j < i; j++)
+        {
             printf("*");
         }
+        
+        printf("\n");
     }
 
     printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i < 3) {
+
+    for (int i = 5; i > 0; i--) {
+        
+        for (int j = 0; j < i - 1; j++)
+        {
             printf(" ");
-        } else {
+        }
+
+        for (int k = i; k < 6; k++) {
             printf("*");
         }
+        
+        printf("\n");
     }
+
     printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        if (i != 4) {
+
+    for (int i = 0; i < 5; i++) {
+        
+        for (int j = 0; j < i; j++)
+        {
             printf(" ");
-        } else {
+        }
+
+        for (int k = i; k < 5; k++) {
             printf("*");
         }
+        
+        printf("\n");
     }
     return 0;
 }

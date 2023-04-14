@@ -3,41 +3,24 @@
 #include <stdlib.h>
 
 int main() {
-    for (int i = 1; i <= 1; i++) {
-        printf("*");
+
+    for (int i = 0; i < 5; i++) {
+
+        for (int j = 0; j < i + 1; j++) {
+            printf("*");
+        }
+
+        printf("\n");
     }
-    printf("\n");
-    for (int i = 1; i <= 2; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 3; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 4; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 0; i < 5; i++)
-    {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 4; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 3; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 2; i++) {
-        printf("*");
-    }
-    printf("\n");
-    for (int i = 1; i <= 1; i++) {
-        printf("*");
+
+    for (int i = 4; i > 0; i--) {
+        
+        for (int j = 0; j < i; j++)
+        {
+            printf("*");
+        }
+        
+        printf("\n");
     }
     
     return 0;
