@@ -4,45 +4,39 @@
 
 int main() {
     int a;
-    int l;
-    int e;
 
     printf("Altura: ");
     scanf(" %d", &a);
 
-
     if (a > 0) {
-        e = a - 1; // espaços
-        for (int i = 1; i <= a; i++)
-        {
-            l = i + (i-1);
-            
-            for (int j = 1; j <= e; j++) {
+
+        for (int i = 0; i < a; i++) {
+
+            for (int j = 0; j < a - (1 * (i + 1)); j++) {
                 printf(" ");
             }
-            
-            for (int k = 1; k <= l; k++) {
+
+            for (int k = 0; k < i + ((i - 1) + 2); k++) {
                 printf("*");
             }
 
             printf("\n");
-            e--;
         }
+
     } else {
-        e = 0;// espaços
-        for (int i = a * -1; i >= 0; i--)
-        {
-            l = i * 2 - 1;
-            for (int j = 1; j <= e; j++) {
+        a = a*-1;
+        for (int i = 0; i < a; i++) {
+
+            for (int j = 0; j < i; j++) {
                 printf(" ");
             }
-            
-            for (int k = 1; k <= l; k++) {
+
+            for (int k = 0; k < ((a - i) * 2) - 1; k++) {
                 printf("*");
             }
 
             printf("\n");
-            e++;
+
         }
     }
     
