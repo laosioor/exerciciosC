@@ -4,16 +4,21 @@
 
 int main() {
     int n[5];
-    int in[5];
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++)
+    {
         printf("array[%d]: ", i);
         scanf(" %d", &n[i]);
-        in[4-i] = n[i];
     }
 
-    for (int i = 0; i < 5; i++) {
-        printf("arrayInv[%d] = %d\n", i, in[i]);
+    for (int i = 0; i < 5; i++)
+    {
+        n[i] = n[i+1];
+    }
+    
+    for (int i = 0; i < 4; i++)
+    {
+        printf("array[%d] = %d\n", i, n[i]);
     }
     
     return 0;
