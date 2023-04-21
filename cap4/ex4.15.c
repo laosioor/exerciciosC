@@ -6,7 +6,7 @@ int main() {
     int n1[5];
     int n2[5];
     int n3[5];
-    int q = 0, qR = 0;
+    int q = 0;
 
     printf("Forneca os valores do primeiro array: \n");
     for (int i = 0; i < 5; i++)
@@ -30,13 +30,15 @@ int main() {
                 for (int k = 0; k < 5; k++)
                 {
                     if (n3[k] == n1[i]) {
-                        qR++;
+                        break;
+                    } else {
+                        if (k == 4) {
+                            n3[q] = n1[i];
+                            q++;
+                            break;
+                        }
+                        continue;
                     }
-                }
-                if (qR == 0) {
-                    n3[q] = n1[i];
-                    q++;
-                    qR = 0;
                 }
             }
         }
