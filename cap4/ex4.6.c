@@ -4,45 +4,53 @@
 
 int main() {
     int n[5];
-    int ind[5];
-    int b, s = 0;
-    int t = (int) (sizeof(n) / sizeof(n[0]));
-
-    for (int i = 0; i < t; i++)
-    {
+    int p[5];
+    int b, q = 0;
+    
+    for (int i = 0; i < 5; i++) {
         printf("array[%d]: ", i);
         scanf(" %d", &n[i]);
     }
 
+
     printf("Buscar por: ");
     scanf(" %d", &b);
-    
-    for (int i = 0; i < t; i++) {
+
+    for (int i = 0; i < 5; i++) {
         if (n[i] == b) {
-            ind[i] = i;
-            s++;
+            for (int j = q; j < 5; j++) {
+                p[j] = i;
+                q++;
+                break;
+            }
         }
     }
 
-    switch(s) {
-        case 0:
-            printf("O array nao contem o valor %d.", b);
-            break;
-        case 1:
-            printf("O valor %d foi encontrado no indice %d do array.", b, ind[0]);
-            break;
-        case 2:
-            printf("O valor %d foi encontrado nos indices %d e %d do array.", b, ind[0], ind[1]);
-            break;
-        case 3:
-            printf("O valor %d foi encontrado nos indices %d, %d e %d do array.", b, ind[0], ind[1], ind[2]);
-            break;
-        case 4:
-            printf("O valor %d foi encontrado nos indices %d, %d, %d e %d do array.", b, ind[0], ind[1], ind[2], ind[3]);
-            break;
-        case 5:
-            printf("O valor %d foi encontrado nos indices %d, %d, %d, %d e %d do array.", b, ind[0], ind[1], ind[2], ind[3], ind[4]);
-            break;
+    if (q == 0) {
+        printf("O array nao contem o valor %d.", b);
+    } 
+    else {
+        printf("O valor %d foi encontrado ", b);
+
+        if (q == 1) {
+            printf("no indice ");
+        } else {
+            printf("nos indices ");
+        }
+
+        for (int i = 0; i < q; i++) {
+            printf("%d", p[i]);
+
+            if (i + 1 == q) {
+                break;
+            } else if (i+1 == q-1) {
+                printf(" e ");
+            } else {
+                printf(", ");
+            }
+        }
+
+        printf(" do array.");
     }
 
     return 0;
