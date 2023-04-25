@@ -44,9 +44,13 @@ int main() {
         }
     }
 
-    for (int i = 0; i < q; i++)
-    {
-        printf("arrayInterseccao[%d] = %d\n", i, n3[i]);
+    if (q>0) {
+        for (int i = 0; i < q; i++)
+        {
+            printf("arrayInterseccao[%d] = %d\n", i, n3[i]);
+        }
+    } else {
+        printf("Nao ha interseccao entre os elementos dos dois arrays fornecidos!");
     }
 
     return 0;
