@@ -5,7 +5,7 @@
 int main() {
     int n = 0;
     int a[100][100] = {0};
-    int q = 0;
+    int q = 0, v = 1;
 
     printf("Numero entre 1 e 100: ");
     scanf("%d", &n);
@@ -21,7 +21,13 @@ int main() {
         {
             for (int j = q; j < n-q; j++)
             {
-                a[i][j]++;
+                a[i][j] = v;
+                v++;
+
+                if (j == n-q-1)
+                {
+                    v = i+2;
+                }
             }
         }
         q++;
