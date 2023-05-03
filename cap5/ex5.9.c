@@ -16,23 +16,25 @@ int main() {
         n = 0;
     }
 
-    do {
-        for (int i = q; i < n-q; i++)
+    for (int i = 0; i < n; i++) // primeiro for pra fazer em ordem crescente
+    {
+        for (int j = q; j < n; j++)
         {
-            for (int j = q; j < n-q; j++)
-            {
-                a[i][j] = v;
-                v++;
-
-                if (j == n-q-1)
-                {
-                    v = i+2;
-                }
-            }
+            a[i][j] = j+1-q;
         }
         q++;
-    } while (q < n-1);
+    }
 
+    for (int i = 1; i < n; i++) // segundo for pra fazer em ordem decrescente
+    {
+        int v = i + 1;
+        for (int j = 0; j < q-n+1; j++)
+        { 
+            a[i][j] = v;
+            v--;
+        }
+        q++;
+    }
 
     for (int i = 0; i < n; i++)
     {
