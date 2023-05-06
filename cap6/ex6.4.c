@@ -9,6 +9,6 @@ int main() {
     printf("Numero: ");
     scanf(" %f", &n);
 
-    printf("Valor absoluto: %.2f", abs(n));    
+    printf("Valor absoluto: %.2f", fabs(n));    
     return 0;
 }
