@@ -13,7 +13,7 @@ int ehPrimo(int n) {
             break;
         }
     }
-    if (s > 2) {
+    if (s > 2 || s == 1) {
         return 0;
     } else {
         return 1;
