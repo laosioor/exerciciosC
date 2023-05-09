@@ -20,6 +20,14 @@ int ehPrimo(int n) {
     }
 }
 int main() {
-    printf("%d %d", 4, ehPrimo(4));
+    for (int i = 1; i <= 20; i++) {
+        printf("%d: ", i);
+
+        if (ehPrimo(i)) {
+            printf("eh primo\n");
+        } else {
+            printf("nao eh primo\n");
+        }
+    }
     return 0;
 }
