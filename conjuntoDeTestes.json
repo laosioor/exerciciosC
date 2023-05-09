@@ -1,0 +1,2096 @@
+[
+  {
+    "description": "capitulo01EntradaSaidaPadraoFormatados",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex1.1",
+        "testCases": [
+          {
+            "input": "",
+            "output": "Ola Mundo!"
+          }
+        ]
+      },
+      {
+        "name": "ex1.2",
+        "testCases": [
+          {
+            "input": "",
+            "output": "   *\n  ***\n *****\n*******"
+          }
+        ]
+      },
+      {
+        "name": "ex1.3",
+        "testCases": [
+          {
+            "input": "",
+            "output": "########\n#      #\n#      #\n#      #\n#      #\n########"
+          }
+        ]
+      },
+      {
+        "name": "ex1.4",
+        "testCases": [
+          {
+            "input": "",
+            "output": "       *\n      *\n     *\n*   *\n * *\n  *"
+          }
+        ]
+      },
+      {
+        "name": "ex1.5",
+        "testCases": [
+          {
+            "input": "",
+            "output": "*********         ***           *            *\n*       *       *     *        ***          * *\n*       *      *       *      *****        *   *\n*       *      *       *        *         *     *\n*       *      *       *        *        *       *\n*       *      *       *        *         *     *\n*       *      *       *        *          *   *\n*       *       *     *         *           * *\n*********         ***           *            *"
+          }
+        ]
+      },
+      {
+        "name": "ex1.6",
+        "testCases": [
+          {
+            "input": "7\n3",
+            "output": "7 + 3 \u003d 10\n7 - 3 \u003d 4\n7 * 3 \u003d 21\n7 / 3 \u003d 2"
+          }
+        ]
+      },
+      {
+        "name": "ex1.7",
+        "testCases": [
+          {
+            "input": "5",
+            "output": "Perimetro \u003d 20\nArea \u003d 25"
+          }
+        ]
+      },
+      {
+        "name": "ex1.8",
+        "testCases": [
+          {
+            "input": "5\n10",
+            "output": "Perimetro \u003d 30\nArea \u003d 50"
+          }
+        ]
+      },
+      {
+        "name": "ex1.9",
+        "testCases": [
+          {
+            "input": "10\n5",
+            "output": "Area \u003d 25"
+          }
+        ]
+      },
+      {
+        "name": "ex1.10",
+        "testCases": [
+          {
+            "input": "10\n6\n5",
+            "output": "Area \u003d 40"
+          }
+        ]
+      },
+      {
+        "name": "ex1.11",
+        "testCases": [
+          {
+            "input": "12\n6",
+            "output": "Area \u003d 36"
+          }
+        ]
+      },
+      {
+        "name": "ex1.12",
+        "testCases": [
+          {
+            "input": "153.4671",
+            "output": "153.467102\n153.47\n153.467"
+          }
+        ]
+      },
+      {
+        "name": "ex1.13",
+        "testCases": [
+          {
+            "input": "7.5\n3.5",
+            "output": "7.50 + 3.50 \u003d 11.00\n7.50 - 3.50 \u003d 4.00\n7.50 * 3.50 \u003d 26.25\n7.50 / 3.50 \u003d 2.14"
+          }
+        ]
+      },
+      {
+        "name": "ex1.14",
+        "testCases": [
+          {
+            "input": "5.5",
+            "output": "Perimetro \u003d 22.00\nArea \u003d 30.25"
+          }
+        ]
+      },
+      {
+        "name": "ex1.15",
+        "testCases": [
+          {
+            "input": "5.5\n9.5",
+            "output": "Perimetro \u003d 30.00\nArea \u003d 52.25"
+          }
+        ]
+      },
+      {
+        "name": "ex1.16",
+        "testCases": [
+          {
+            "input": "10.5\n5.75",
+            "output": "Area \u003d 30.19"
+          }
+        ]
+      },
+      {
+        "name": "ex1.17",
+        "testCases": [
+          {
+            "input": "10.5\n6.25\n6.75",
+            "output": "Area \u003d 56.53"
+          }
+        ]
+      },
+      {
+        "name": "ex1.18",
+        "testCases": [
+          {
+            "input": "12.25\n6.6",
+            "output": "Area \u003d 40.42"
+          }
+        ]
+      },
+      {
+        "name": "ex1.19",
+        "testCases": [
+          {
+            "input": "10.5",
+            "output": "Diametro \u003d 21.00\nCircunferencia \u003d 65.97\nArea \u003d 346.36"
+          }
+        ]
+      },
+      {
+        "name": "ex1.20",
+        "testCases": [
+          {
+            "input": "5\n10",
+            "output": "Media aritmetica: 7"
+          }
+        ]
+      },
+      {
+        "name": "ex1.21",
+        "testCases": [
+          {
+            "input": "1992",
+            "output": "Sucessor de 1992: 1993\nAntecessor de 1992: 1991"
+          }
+        ]
+      },
+      {
+        "name": "ex1.22",
+        "testCases": [
+          {
+            "input": "5.79",
+            "output": "Preco de venda com 9% de desconto: 5.27"
+          }
+        ]
+      },
+      {
+        "name": "ex1.23",
+        "testCases": [
+          {
+            "input": "1985\n2018",
+            "output": "Idade aproximada: 33 anos"
+          }
+        ]
+      },
+      {
+        "name": "ex1.24",
+        "testCases": [
+          {
+            "input": "20.78\n40\n26.5",
+            "output": "Salario Liquido: 610.93"
+          }
+        ]
+      },
+      {
+        "name": "ex1.25",
+        "testCases": [
+          {
+            "input": "125",
+            "output": "125.00 graus Fahrenheit correspondem a 51.67 graus Celsius"
+          }
+        ]
+      },
+      {
+        "name": "ex1.26",
+        "testCases": [
+          {
+            "input": "36",
+            "output": "36.00 graus Celsius correspondem a 96.80 graus Fahrenheit"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo02EstruturasCondicionais",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex2.1",
+        "testCases": [
+          {
+            "input": "19",
+            "output": "O numero 19 e impar."
+          },
+          {
+            "input": "8",
+            "output": "O numero 8 e par."
+          }
+        ]
+      },
+      {
+        "name": "ex2.2",
+        "testCases": [
+          {
+            "input": "7\n2",
+            "output": "Ordem crescente: 2 \u003c\u003d 7"
+          },
+          {
+            "input": "-2\n9",
+            "output": "Ordem crescente: -2 \u003c\u003d 9"
+          },
+          {
+            "input": "4\n4",
+            "output": "Ordem crescente: 4 \u003c\u003d 4"
+          }
+        ]
+      },
+      {
+        "name": "ex2.3",
+        "testCases": [
+          {
+            "input": "7\n2",
+            "output": "Ordem decrescente: 7 \u003e\u003d 2"
+          },
+          {
+            "input": "-30\n20",
+            "output": "Ordem decrescente: 20 \u003e\u003d -30"
+          },
+          {
+            "input": "4\n4",
+            "output": "Ordem decrescente: 4 \u003e\u003d 4"
+          }
+        ]
+      },
+      {
+        "name": "ex2.4",
+        "testCases": [
+          {
+            "input": "5\n1\n9",
+            "output": "1 \u003c\u003d 5 \u003c\u003d 9"
+          },
+          {
+            "input": "15\n8\n-4",
+            "output": "-4 \u003c\u003d 8 \u003c\u003d 15"
+          },
+          {
+            "input": "-4\n8\n-4",
+            "output": "-4 \u003c\u003d -4 \u003c\u003d 8"
+          }
+        ]
+      },
+      {
+        "name": "ex2.5",
+        "testCases": [
+          {
+            "input": "5\n1\n9",
+            "output": "9 \u003e\u003d 5 \u003e\u003d 1"
+          },
+          {
+            "input": "15\n8\n-4",
+            "output": "15 \u003e\u003d 8 \u003e\u003d -4"
+          },
+          {
+            "input": "-4\n8\n-4",
+            "output": "8 \u003e\u003d -4 \u003e\u003d -4"
+          }
+        ]
+      },
+      {
+        "name": "ex2.6",
+        "testCases": [
+          {
+            "input": "33.5",
+            "output": "A metade de 33.50 e 16.75"
+          },
+          {
+            "input": "9.5",
+            "output": "O triplo de 9.50 e 28.50"
+          }
+        ]
+      },
+      {
+        "name": "ex2.7",
+        "testCases": [
+          {
+            "input": "7\n8.5",
+            "output": "Os numeros fornecidos foram 7.00 e 8.50"
+          },
+          {
+            "input": "3\n2",
+            "output": "A subtracao entre 3.00 e 2.00 e igual a 1.00"
+          }
+        ]
+      },
+      {
+        "name": "ex2.8",
+        "testCases": [
+          {
+            "input": "4\n2\n9",
+            "output": "A soma dos dois numeros maiores fornecidos e 13.00"
+          },
+          {
+            "input": "-1\n7\n-2",
+            "output": "A soma dos dois numeros maiores fornecidos e 6.00"
+          },
+          {
+            "input": "7\n3\n7",
+            "output": "A soma dos dois numeros maiores fornecidos e 14.00"
+          }
+        ]
+      },
+      {
+        "name": "ex2.9",
+        "testCases": [
+          {
+            "input": "3\n7.5",
+            "output": "TRIANGULO de perimetro 22.50"
+          },
+          {
+            "input": "4\n5.5",
+            "output": "QUADRADO de area 30.25"
+          },
+          {
+            "input": "5\n2.5",
+            "output": "PENTAGONO"
+          },
+          {
+            "input": "7\n3.75",
+            "output": "Poligono nao identificado"
+          }
+        ]
+      },
+      {
+        "name": "ex2.10",
+        "testCases": [
+          {
+            "input": "5\n5\n5",
+            "output": "Triangulo EQUILATERO"
+          },
+          {
+            "input": "6.5\n9\n6.5",
+            "output": "Triangulo ISOSCELES"
+          },
+          {
+            "input": "6.5\n7\n3.5",
+            "output": "Triangulo ESCALENO"
+          },
+          {
+            "input": "15.8\n5.5\n3.5",
+            "output": "As medidas fornecidas dos lados nao representam um triangulo valido!"
+          }
+        ]
+      },
+      {
+        "name": "ex2.11",
+        "testCases": [
+          {
+            "input": "90\n60\n30",
+            "output": "Triangulo RETANGULO"
+          },
+          {
+            "input": "70\n70\n40",
+            "output": "Triangulo ACUTANGULO"
+          },
+          {
+            "input": "30\n120\n30",
+            "output": "Triangulo OBTUSANGULO"
+          },
+          {
+            "input": "90\n60\n60",
+            "output": "As medidas fornecidas dos angulos nao representam um triangulo valido!"
+          }
+        ]
+      },
+      {
+        "name": "ex2.12",
+        "testCases": [
+          {
+            "input": "20\n25\n40\n15",
+            "output": "Idade homem mais velho + idade mulher mais nova: 40\nIdade homem mais novo * idade mulher mais velha: 800"
+          }
+        ]
+      },
+      {
+        "name": "ex2.13",
+        "testCases": [
+          {
+            "input": "6.5\n7.5\n-1",
+            "output": "Media: 7.00\nAprovado!"
+          },
+          {
+            "input": "3\n4\n6",
+            "output": "Media: 5.00\nExame."
+          },
+          {
+            "input": "5\n1\n2",
+            "output": "Media: 3.50\nReprovado..."
+          }
+        ]
+      },
+      {
+        "name": "ex2.14",
+        "testCases": [
+          {
+            "input": "82\n1.8",
+            "output": "IMC: 25.31\nAtencao, voce esta acima de seu peso (sobrepeso)!"
+          },
+          {
+            "input": "50\n1.7",
+            "output": "IMC: 17.30\nVoce esta abaixo do peso ideal!"
+          },
+          {
+            "input": "120\n1.82",
+            "output": "IMC: 36.23\nCuidado! Obesidade grau II!"
+          }
+        ]
+      },
+      {
+        "name": "ex2.15",
+        "testCases": [
+          {
+            "input": "18",
+            "output": "Eleitor obrigatorio."
+          },
+          {
+            "input": "29",
+            "output": "Eleitor obrigatorio."
+          },
+          {
+            "input": "15",
+            "output": "Nao eleitor."
+          },
+          {
+            "input": "17",
+            "output": "Eleitor facultativo."
+          },
+          {
+            "input": "70",
+            "output": "Eleitor facultativo."
+          }
+        ]
+      },
+      {
+        "name": "ex2.16",
+        "testCases": [
+          {
+            "input": "4",
+            "output": "4 \u003d IV"
+          },
+          {
+            "input": "9",
+            "output": "9 \u003d IX"
+          },
+          {
+            "input": "27",
+            "output": "27 \u003d XXVII"
+          },
+          {
+            "input": "251",
+            "output": "251 \u003d CCLI"
+          },
+          {
+            "input": "2796",
+            "output": "2796 \u003d MMDCCXCVI"
+          },
+          {
+            "input": "5000",
+            "output": "Numero incorreto!"
+          },
+          {
+            "input": "0",
+            "output": "Numero incorreto!"
+          }
+        ]
+      },
+      {
+        "name": "ex2.17",
+        "testCases": [
+          {
+            "input": "6",
+            "output": "O valor fornecido foi 6."
+          },
+          {
+            "input": "7",
+            "output": "Valor invalido."
+          }
+        ]
+      },
+      {
+        "name": "ex2.18",
+        "testCases": [
+          {
+            "input": "28\n8\n+",
+            "output": "28.00 + 8.00 \u003d 36.00"
+          },
+          {
+            "input": "16\n3\n/",
+            "output": "16.00 / 3.00 \u003d 5.33"
+          },
+          {
+            "input": "13\n76\nx",
+            "output": "Opcao invalida!"
+          }
+        ]
+      },
+      {
+        "name": "ex2.19",
+        "testCases": [
+          {
+            "input": "C\n38.5",
+            "output": "38.50 graus Celsius correspondem a 101.30 graus Fahrenheit"
+          },
+          {
+            "input": "F\n125.7",
+            "output": "125.70 graus Fahrenheit correspondem a 52.06 graus Celsius"
+          },
+          {
+            "input": "x",
+            "output": "Opcao invalida!"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo03EstruturasDeRepeticao",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex3.1",
+        "testCases": [
+          {
+            "input": "",
+            "output": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
+          }
+        ]
+      },
+      {
+        "name": "ex3.2",
+        "testCases": [
+          {
+            "input": "",
+            "output": "0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50"
+          }
+        ]
+      },
+      {
+        "name": "ex3.3",
+        "testCases": [
+          {
+            "input": "",
+            "output": "20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0"
+          }
+        ]
+      },
+      {
+        "name": "ex3.4",
+        "testCases": [
+          {
+            "input": "",
+            "output": "225 256 289 324 361 400 441 484 529 576 625 676 729 784 841 900"
+          }
+        ]
+      },
+      {
+        "name": "ex3.5",
+        "testCases": [
+          {
+            "input": "7",
+            "output": "0 1 2 3 4 5 6 7"
+          },
+          {
+            "input": "-5",
+            "output": "Valor incorreto (negativo)"
+          }
+        ]
+      },
+      {
+        "name": "ex3.6",
+        "testCases": [
+          {
+            "input": "7",
+            "output": "7 6 5 4 3 2 1 0"
+          },
+          {
+            "input": "-10",
+            "output": "Valor incorreto (negativo)"
+          }
+        ]
+      },
+      {
+        "name": "ex3.7",
+        "testCases": [
+          {
+            "input": "-10",
+            "output": "-10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0"
+          },
+          {
+            "input": "20",
+            "output": "Valor incorreto (positivo)"
+          }
+        ]
+      },
+      {
+        "name": "ex3.8",
+        "testCases": [
+          {
+            "input": "-9",
+            "output": "0 -1 -2 -3 -4 -5 -6 -7 -8 -9"
+          },
+          {
+            "input": "15",
+            "output": "Valor incorreto (positivo)"
+          }
+        ]
+      },
+      {
+        "name": "ex3.9",
+        "testCases": [
+          {
+            "input": "5",
+            "output": "5 x 0 \u003d 0\n5 x 1 \u003d 5\n5 x 2 \u003d 10\n5 x 3 \u003d 15\n5 x 4 \u003d 20\n5 x 5 \u003d 25\n5 x 6 \u003d 30\n5 x 7 \u003d 35\n5 x 8 \u003d 40\n5 x 9 \u003d 45\n5 x 10 \u003d 50"
+          }
+        ]
+      },
+      {
+        "name": "ex3.10",
+        "testCases": [
+          {
+            "input": "",
+            "output": "45: indivisivel\n46: indivisivel\n47: indivisivel\n48: divisivel\n49: indivisivel\n50: indivisivel\n51: indivisivel\n52: divisivel\n53: indivisivel\n54: indivisivel\n55: indivisivel\n56: divisivel\n57: indivisivel\n58: indivisivel\n59: indivisivel\n60: divisivel"
+          }
+        ]
+      },
+      {
+        "name": "ex3.11",
+        "testCases": [
+          {
+            "input": "2\n10",
+            "output": "2 3 4 5 6 7 8 9 10"
+          },
+          {
+            "input": "30\n20",
+            "output": "30 29 28 27 26 25 24 23 22 21 20"
+          }
+        ]
+      },
+      {
+        "name": "ex3.12",
+        "testCases": [
+          {
+            "input": "5\n100",
+            "output": "Numeros pares entre 5 e 100: 48"
+          },
+          {
+            "input": "20\n-30",
+            "output": "Numeros pares entre -30 e 20: 26"
+          }
+        ]
+      },
+      {
+        "name": "ex3.13",
+        "testCases": [
+          {
+            "input": "-50\n200",
+            "output": "Multiplos de 2: 126\nMultiplos de 3: 83\nMultiplos de 4: 63"
+          },
+          {
+            "input": "50\n-100",
+            "output": "Multiplos de 2: 76\nMultiplos de 3: 50\nMultiplos de 4: 38"
+          }
+        ]
+      },
+      {
+        "name": "ex3.14",
+        "testCases": [
+          {
+            "input": "-5\n50",
+            "output": "Somatorio entre -5 e 50: 1260"
+          },
+          {
+            "input": "80\n-10",
+            "output": "Somatorio entre -10 e 80: 3185"
+          }
+        ]
+      },
+      {
+        "name": "ex3.15",
+        "testCases": [
+          {
+            "input": "5",
+            "output": "5! \u003d 120"
+          },
+          {
+            "input": "-10",
+            "output": "Nao ha fatorial de numero negativo."
+          }
+        ]
+      },
+      {
+        "name": "ex3.16",
+        "testCases": [
+          {
+            "input": "",
+            "output": "1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765"
+          }
+        ]
+      },
+      {
+        "name": "ex3.17",
+        "testCases": [
+          {
+            "input": "0",
+            "output": "Fibonacci de 0 e 1"
+          },
+          {
+            "input": "1",
+            "output": "Fibonacci de 1 e 1"
+          },
+          {
+            "input": "5",
+            "output": "Fibonacci de 5 e 8"
+          },
+          {
+            "input": "15",
+            "output": "Fibonacci de 15 e 987"
+          }
+        ]
+      },
+      {
+        "name": "ex3.18",
+        "testCases": [
+          {
+            "input": "",
+            "output": "*\n**\n***\n****\n*****"
+          }
+        ]
+      },
+      {
+        "name": "ex3.19",
+        "testCases": [
+          {
+            "input": "",
+            "output": "*\n**\n***\n****\n*****\n****\n***\n**\n*"
+          }
+        ]
+      },
+      {
+        "name": "ex3.20",
+        "testCases": [
+          {
+            "input": "",
+            "output": "*\n**\n***\n****\n*****\n\n*****\n****\n***\n**\n*\n\n    *\n   **\n  ***\n ****\n*****\n\n*****\n ****\n  ***\n   **\n    *"
+          }
+        ]
+      },
+      {
+        "name": "ex3.21",
+        "testCases": [
+          {
+            "input": "3",
+            "output": "  *\n ***\n*****"
+          },
+          {
+            "input": "11",
+            "output": "          *\n         ***\n        *****\n       *******\n      *********\n     ***********\n    *************\n   ***************\n  *****************\n *******************\n*********************"
+          },
+          {
+            "input": "-5",
+            "output": "*********\n *******\n  *****\n   ***\n    *"
+          }
+        ]
+      },
+      {
+        "name": "ex3.22",
+        "testCases": [
+          {
+            "input": "3\n5\n10\n2\n6",
+            "output": "0010    *  \n0009    *  \n0008    *  \n0007    *  \n0006    * *\n0005   ** *\n0004   ** *\n0003  *** *\n0002  *****\n0001  *****"
+          },
+          {
+            "input": "4\n8\n0\n-7\n2",
+            "output": "Forneca apenas numeros positivos."
+          }
+        ]
+      },
+      {
+        "name": "ex3.23",
+        "testCases": [
+          {
+            "input": "6\n8\n9\n8.75\n7\n5\n6\n7.5\n8\n9",
+            "output": "A media aritmetica das dez notas e: 7.43"
+          }
+        ]
+      },
+      {
+        "name": "ex3.24",
+        "testCases": [
+          {
+            "input": "10\n55\n-1",
+            "output": "Total de pessoas menores de 21 anos: 1\nTotal de pessoas com mais de 50 anos: 1"
+          },
+          {
+            "input": "9\n15\n57\n20\n23\n19\n43\n66\n-10",
+            "output": "Total de pessoas menores de 21 anos: 4\nTotal de pessoas com mais de 50 anos: 2"
+          }
+        ]
+      },
+      {
+        "name": "ex3.25",
+        "testCases": [
+          {
+            "input": "4\n8\n-1",
+            "output": "Somatorio: 12.00\nMedia: 6.00\nQuantidade: 2"
+          },
+          {
+            "input": "5\n8\n10\n15\n2\n9\n3\n2\n-1",
+            "output": "Somatorio: 54.00\nMedia: 6.75\nQuantidade: 8"
+          },
+          {
+            "input": "-5",
+            "output": "Somatorio: 0.00\nMedia: 0.00\nQuantidade: 0"
+          }
+        ]
+      },
+      {
+        "name": "ex3.26",
+        "testCases": [
+          {
+            "input": "7\n15\n3\n29\n2\n103\n0\n34\n-1",
+            "output": "Menor numero: 0\nMaior numero: 103"
+          },
+          {
+            "input": "5\n-1",
+            "output": "Menor numero: 5\nMaior numero: 5"
+          },
+          {
+            "input": "-5",
+            "output": "Menor numero: 0\nMaior numero: 0"
+          }
+        ]
+      },
+      {
+        "name": "ex3.27",
+        "testCases": [
+          {
+            "input": "55.8\n102.7\n86.3\n-1",
+            "output": "Media dos pesos acima de 60kg: 94.50\nA pessoa mais pesada possui 102.70kg"
+          },
+          {
+            "input": "-1",
+            "output": "Media dos pesos acima de 60kg: 0.00\nA pessoa mais pesada possui 0.00kg"
+          },
+          {
+            "input": "30.0\n-1",
+            "output": "Media dos pesos acima de 60kg: 0.00\nA pessoa mais pesada possui 30.00kg"
+          },
+          {
+            "input": "90.0\n-1",
+            "output": "Media dos pesos acima de 60kg: 90.00\nA pessoa mais pesada possui 90.00kg"
+          }
+        ]
+      },
+      {
+        "name": "ex3.28",
+        "testCases": [
+          {
+            "input": "3000\n1\n500\n1\n300\n1\n100\n2\n2555\n3",
+            "output": "Saldo final: R$1345.00\nConta preferencial."
+          },
+          {
+            "input": "1000\n2\n500\n2\n300\n2\n300\n3",
+            "output": "Saldo final: -R$100.00\nConta devedora."
+          },
+          {
+            "input": "2000\n2\n1500\n2\n500\n3",
+            "output": "Saldo final: R$0.00\nSem saldo."
+          }
+        ]
+      },
+      {
+        "name": "ex3.29",
+        "testCases": [
+          {
+            "input": "10\n5\nS\n11\n3\nS\n15\n0\n0\n5\nN",
+            "output": "N1: N2: 10 / 5 \u003d 2\nVoce deseja realizar outro calculo? (S/N): N1: N2: 11 / 3 \u003d 3\nVoce deseja realizar outro calculo? (S/N): N1: N2: Nao existe divisao inteira por zero!\nEntre novamente com N2: Nao existe divisao inteira por zero!\nEntre novamente com N2: 15 / 5 \u003d 3\nVoce deseja realizar outro calculo? (S/N):"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo04ArraysUnidimensionais",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex4.1",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8",
+            "output": "arrayCubo[0] \u003d 64\narrayCubo[1] \u003d 125\narrayCubo[2] \u003d 343\narrayCubo[3] \u003d 1000\narrayCubo[4] \u003d -512"
+          }
+        ]
+      },
+      {
+        "name": "ex4.2",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "arrayMult[0] \u003d 20\narrayMult[1] \u003d 25\narrayMult[2] \u003d 35\narrayMult[3] \u003d 50\narrayMult[4] \u003d -40"
+          }
+        ]
+      },
+      {
+        "name": "ex4.3",
+        "testCases": [
+          {
+            "input": "4\n5.5\n7\n10.7\n-8",
+            "output": "Somatorio: 19.20\nProdutorio: -13182.40"
+          }
+        ]
+      },
+      {
+        "name": "ex4.4",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "Indice 0: NAO ACHEI\nIndice 1: ACHEI\nIndice 2: NAO ACHEI\nIndice 3: NAO ACHEI\nIndice 4: NAO ACHEI"
+          }
+        ]
+      },
+      {
+        "name": "ex4.5",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "O array contem 1 ocorrencia do valor 5."
+          },
+          {
+            "input": "7\n5\n7\n10\n7\n7",
+            "output": "O array contem 3 ocorrencias do valor 7."
+          },
+          {
+            "input": "4\n5\n7\n10\n-8\n0",
+            "output": "O array nao contem o valor 0."
+          }
+        ]
+      },
+      {
+        "name": "ex4.6",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "O valor 5 foi encontrado no indice 1 do array."
+          },
+          {
+            "input": "9\n5\n7\n9\n7\n9",
+            "output": "O valor 9 foi encontrado nos indices 0 e 3 do array."
+          },
+          {
+            "input": "7\n5\n7\n10\n7\n7",
+            "output": "O valor 7 foi encontrado nos indices 0, 2 e 4 do array."
+          },
+          {
+            "input": "4\n5\n7\n10\n-8\n0",
+            "output": "O array nao contem o valor 0."
+          }
+        ]
+      },
+      {
+        "name": "ex4.7",
+        "testCases": [
+          {
+            "input": "5\n8\n7\n2\n8\n12\n-10\n-5\n-20\n9",
+            "output": "arraySoma[0] \u003d 17\narraySoma[1] \u003d -2\narraySoma[2] \u003d 2\narraySoma[3] \u003d -18\narraySoma[4] \u003d 17"
+          }
+        ]
+      },
+      {
+        "name": "ex4.8",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8",
+            "output": "Numeros pares: 4 10 -8.\nNumeros impares: 5 7."
+          },
+          {
+            "input": "4\n8\n6\n10\n-8",
+            "output": "Numeros pares: 4 8 6 10 -8.\nNumeros impares: nao ha."
+          },
+          {
+            "input": "5\n9\n7\n13\n-9",
+            "output": "Numeros pares: nao ha.\nNumeros impares: 5 9 7 13 -9."
+          }
+        ]
+      },
+      {
+        "name": "ex4.9",
+        "testCases": [
+          {
+            "input": "4\n8\n6\n10\n-8",
+            "output": "arrayInv[0] \u003d -8\narrayInv[1] \u003d 10\narrayInv[2] \u003d 6\narrayInv[3] \u003d 8\narrayInv[4] \u003d 4"
+          }
+        ]
+      },
+      {
+        "name": "ex4.10",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "arrayCopia[0] \u003d 7\narrayCopia[1] \u003d 10"
+          },
+          {
+            "input": "4\n5\n7\n10\n-8\n100",
+            "output": "Nao houve copia!"
+          }
+        ]
+      },
+      {
+        "name": "ex4.11",
+        "testCases": [
+          {
+            "input": "20\n5\n4\n5\n7\n10\n-8\n15",
+            "output": "array[0] \u003d 15\narray[1] \u003d 4\narray[2] \u003d 5\narray[3] \u003d 7\narray[4] \u003d 10\narray[5] \u003d -8"
+          }
+        ]
+      },
+      {
+        "name": "ex4.12",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8",
+            "output": "array[0] \u003d 5\narray[1] \u003d 7\narray[2] \u003d 10\narray[3] \u003d -8"
+          }
+        ]
+      },
+      {
+        "name": "ex4.13",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n9\n10\n14\n3\n121\n20\n5",
+            "output": "array[0] \u003d 4\narray[1] \u003d 5\narray[2] \u003d 7\narray[3] \u003d 10\narray[4] \u003d -8\narray[5] \u003d 10\narray[6] \u003d 14\narray[7] \u003d 3\narray[8] \u003d 121"
+          }
+        ]
+      },
+      {
+        "name": "ex4.14",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n9\n10\n14\n3\n121",
+            "output": "array[0] \u003d 5\narray[1] \u003d 7\narray[2] \u003d 9\narray[3] \u003d 3\narray[4] \u003d 121"
+          }
+        ]
+      },
+      {
+        "name": "ex4.15",
+        "testCases": [
+          {
+            "input": "5\n8\n7\n2\n8\n5\n-10\n-5\n8\n2",
+            "output": "arrayInterseccao[0] \u003d 5\narrayInterseccao[1] \u003d 8\narrayInterseccao[2] \u003d 2"
+          },
+          {
+            "input": "5\n8\n7\n2\n8\n12\n-10\n-5\n-20\n9",
+            "output": "Nao ha interseccao entre os elementos dos dois arrays fornecidos!"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo05ArraysMultidimensionais",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex5.1",
+        "testCases": [
+          {
+            "input": "1\n2\n3\n4\n5\n6",
+            "output": "001 002\n003 004\n005 006"
+          }
+        ]
+      },
+      {
+        "name": "ex5.2",
+        "testCases": [
+          {
+            "input": "4\n7\n8\n5\n1\n2\n6\n5\n8\n9\n5\n2\n1\n4\n5\n6\n3\n2",
+            "output": "array1:       array2:       arraySoma:\n004 007 008   009 005 002   013 012 010\n005 001 002 + 001 004 005 \u003d 006 005 007\n006 005 008   006 003 002   012 008 010"
+          }
+        ]
+      },
+      {
+        "name": "ex5.3",
+        "testCases": [
+          {
+            "input": "1\n4\n5\n8\n7\n4\n5\n2\n3\n6\n5\n4\n5",
+            "output": "arrayMult:\n005 020 025 040\n035 020 025 010\n015 030 025 020"
+          }
+        ]
+      },
+      {
+        "name": "ex5.4",
+        "testCases": [
+          {
+            "input": "4\n5\n6\n1",
+            "output": "Determinante: -26"
+          }
+        ]
+      },
+      {
+        "name": "ex5.5",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n8\n2\n1\n3\n6\n5",
+            "output": "Determinante: 125"
+          }
+        ]
+      },
+      {
+        "name": "ex5.6",
+        "testCases": [
+          {
+            "input": "1\n2\n3\n4\n5\n6",
+            "output": "M:\n001 002 003\n004 005 006\n\nMt:\n001 004\n002 005\n003 006"
+          }
+        ]
+      },
+      {
+        "name": "ex5.7",
+        "testCases": [
+          {
+            "input": "2\n3\n0\n1\n-1\n4\n1\n2\n3\n-2\n0\n4",
+            "output": "A x B \u003d\n-04 004 018\n-02 000 004\n-09 -02 013"
+          }
+        ]
+      },
+      {
+        "name": "ex5.8",
+        "testCases": [
+          {
+            "input": "1",
+            "output": "  1"
+          },
+          {
+            "input": "2",
+            "output": "  1   1\n  1   1"
+          },
+          {
+            "input": "3",
+            "output": "  1   1   1\n  1   2   1\n  1   1   1"
+          },
+          {
+            "input": "4",
+            "output": "  1   1   1   1\n  1   2   2   1\n  1   2   2   1\n  1   1   1   1"
+          },
+          {
+            "input": "5",
+            "output": "  1   1   1   1   1\n  1   2   2   2   1\n  1   2   3   2   1\n  1   2   2   2   1\n  1   1   1   1   1"
+          },
+          {
+            "input": "10",
+            "output": "  1   1   1   1   1   1   1   1   1   1\n  1   2   2   2   2   2   2   2   2   1\n  1   2   3   3   3   3   3   3   2   1\n  1   2   3   4   4   4   4   3   2   1\n  1   2   3   4   5   5   4   3   2   1\n  1   2   3   4   5   5   4   3   2   1\n  1   2   3   4   4   4   4   3   2   1\n  1   2   3   3   3   3   3   3   2   1\n  1   2   2   2   2   2   2   2   2   1\n  1   1   1   1   1   1   1   1   1   1"
+          },
+          {
+            "input": "0",
+            "output": "Numero incorreto!"
+          },
+          {
+            "input": "200",
+            "output": "Numero incorreto!"
+          }
+        ]
+      },
+      {
+        "name": "ex5.9",
+        "testCases": [
+          {
+            "input": "1",
+            "output": "  1"
+          },
+          {
+            "input": "2",
+            "output": "  1   2\n  2   1"
+          },
+          {
+            "input": "3",
+            "output": "  1   2   3\n  2   1   2\n  3   2   1"
+          },
+          {
+            "input": "4",
+            "output": "  1   2   3   4\n  2   1   2   3\n  3   2   1   2\n  4   3   2   1"
+          },
+          {
+            "input": "5",
+            "output": "  1   2   3   4   5\n  2   1   2   3   4\n  3   2   1   2   3\n  4   3   2   1   2\n  5   4   3   2   1"
+          },
+          {
+            "input": "10",
+            "output": "  1   2   3   4   5   6   7   8   9  10\n  2   1   2   3   4   5   6   7   8   9\n  3   2   1   2   3   4   5   6   7   8\n  4   3   2   1   2   3   4   5   6   7\n  5   4   3   2   1   2   3   4   5   6\n  6   5   4   3   2   1   2   3   4   5\n  7   6   5   4   3   2   1   2   3   4\n  8   7   6   5   4   3   2   1   2   3\n  9   8   7   6   5   4   3   2   1   2\n 10   9   8   7   6   5   4   3   2   1"
+          },
+          {
+            "input": "0",
+            "output": "Numero incorreto!"
+          },
+          {
+            "input": "200",
+            "output": "Numero incorreto!"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo06BibliotecaMatematica",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex6.1",
+        "testCases": [
+          {
+            "input": "1\n5\n4",
+            "output": "Delta: 9.00\nS \u003d {-4.00, -1.00}"
+          },
+          {
+            "input": "1\n4\n4",
+            "output": "Delta: 0.00\nS \u003d {-2.00}"
+          },
+          {
+            "input": "2\n2\n1",
+            "output": "Delta: -4.00\nS \u003d {}"
+          },
+          {
+            "input": "0\n3\n-2",
+            "output": "Nao existe equacao do segundo grau!"
+          }
+        ]
+      },
+      {
+        "name": "ex6.2",
+        "testCases": [
+          {
+            "input": "2\n10",
+            "output": "2.00 ^ 10.00 \u003d 1024.00"
+          }
+        ]
+      },
+      {
+        "name": "ex6.3",
+        "testCases": [
+          {
+            "input": "3.5",
+            "output": "Maior inteiro mais proximo: 4.00\nMenor inteiro mais proximo: 3.00"
+          },
+          {
+            "input": "-3.5",
+            "output": "Maior inteiro mais proximo: -3.00\nMenor inteiro mais proximo: -4.00"
+          }
+        ]
+      },
+      {
+        "name": "ex6.4",
+        "testCases": [
+          {
+            "input": "9.5",
+            "output": "Valor absoluto: 9.50"
+          },
+          {
+            "input": "-9.5",
+            "output": "Valor absoluto: 9.50"
+          }
+        ]
+      },
+      {
+        "name": "ex6.5",
+        "testCases": [
+          {
+            "input": "9",
+            "output": "Raiz quadrada de 9.00: 3.00"
+          },
+          {
+            "input": "-5",
+            "output": "Quadrado de -5.00: 25.00"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo07FuncoesMetodos",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex7.1",
+        "testCases": [
+          {
+            "input": "5\n6\n-7\n8\n9",
+            "output": "absoluto(5) \u003d 5\nabsoluto(6) \u003d 6\nabsoluto(-7) \u003d 7\nabsoluto(8) \u003d 8\nabsoluto(9) \u003d 9"
+          }
+        ]
+      },
+      {
+        "name": "ex7.2",
+        "testCases": [
+          {
+            "input": "5",
+            "output": "Area \u003d 78.54\nCircunferencia \u003d 31.42"
+          }
+        ]
+      },
+      {
+        "name": "ex7.3",
+        "testCases": [
+          {
+            "input": "2\n3\n4\n6\n5\n5\n-6\n4\n-7\n-8\n3\n4\n2",
+            "output": "2.00, 3.00: O maior valor e 3.00\n4.00, 6.00: O maior valor e 6.00\n5.00, 5.00: Eles sao iguais\n4.00, 3.00: O maior valor e 4.00\n4.00, 2.00: O maior valor e 4.00"
+          }
+        ]
+      },
+      {
+        "name": "ex7.4",
+        "testCases": [
+          {
+            "input": "5\n4\n9\n-7\n8\n-8\n-9\n-4\n3",
+            "output": "Somatorio de 1 a 5: 15\nSomatorio de 1 a 4: 10\nSomatorio de 1 a 9: 45\nSomatorio de 1 a 8: 36\nSomatorio de 1 a 3: 6"
+          }
+        ]
+      },
+      {
+        "name": "ex7.5",
+        "testCases": [
+          {
+            "input": "8\n4\n7\n3\n21\n7\n9\n5\n10\n5",
+            "output": "8 eh par e 8 eh divisivel por 4\n7 eh impar e 7 nao eh divisivel por 3\n21 eh impar e 21 eh divisivel por 7\n9 eh impar e 9 nao eh divisivel por 5\n10 eh par e 10 eh divisivel por 5"
+          }
+        ]
+      },
+      {
+        "name": "ex7.6",
+        "testCases": [
+          {
+            "input": "8\n10\n5\n-8\n9\n-7\n-8\n-7\n50",
+            "output": "Soma dos divisores de 8: 7\nSoma dos divisores de 10: 8\nSoma dos divisores de 5: 1\nSoma dos divisores de 9: 4\nSoma dos divisores de 50: 43"
+          }
+        ]
+      },
+      {
+        "name": "ex7.7",
+        "testCases": [
+          {
+            "input": "",
+            "output": "1: nao eh primo\n2: eh primo\n3: eh primo\n4: nao eh primo\n5: eh primo\n6: nao eh primo\n7: eh primo\n8: nao eh primo\n9: nao eh primo\n10: nao eh primo\n11: eh primo\n12: nao eh primo\n13: eh primo\n14: nao eh primo\n15: nao eh primo\n16: nao eh primo\n17: eh primo\n18: nao eh primo\n19: eh primo\n20: nao eh primo"
+          }
+        ]
+      },
+      {
+        "name": "ex7.8",
+        "testCases": [
+          {
+            "input": "220\n284\n128\n752\n789\n568\n1184\n1210\n874\n138",
+            "output": "220 e 284 sao amigos\n128 e 752 nao sao amigos\n789 e 568 nao sao amigos\n1184 e 1210 sao amigos\n874 e 138 nao sao amigos"
+          }
+        ]
+      },
+      {
+        "name": "ex7.9",
+        "testCases": [
+          {
+            "input": "2\n2\n2\n2\n3\n-10\n-5\n5\n3\n4\n5\n7\n7\n-15\n-19\n8\n1\n10\n20",
+            "output": "Valores 2, 2 e 2: triangulo equilatero\nValores 2, 3 e 5: nao formam um triangulo\nValores 3, 4 e 5: triangulo escaleno\nValores 7, 7 e 8: triangulo isosceles\nValores 1, 10 e 20: nao formam um triangulo"
+          }
+        ]
+      },
+      {
+        "name": "ex7.10",
+        "testCases": [
+          {
+            "input": "1841",
+            "output": "Digito verificador de 1841: 4"
+          },
+          {
+            "input": "6857",
+            "output": "Digito verificador de 6857: 8"
+          },
+          {
+            "input": "751",
+            "output": "Digito verificador de 751: 0"
+          }
+        ]
+      },
+      {
+        "name": "ex7.11",
+        "testCases": [
+          {
+            "input": "18414",
+            "output": "Numero completo: 18414\nNumero: 1841\nDigito: 4\nDigito calculado: 4\nO numero fornecido esta correto!"
+          },
+          {
+            "input": "68577",
+            "output": "Numero completo: 68577\nNumero: 6857\nDigito: 7\nDigito calculado: 8\nO numero fornecido esta incorreto!"
+          },
+          {
+            "input": "7510",
+            "output": "Numero completo: 7510\nNumero: 751\nDigito: 0\nDigito calculado: 0\nO numero fornecido esta correto!"
+          }
+        ]
+      },
+      {
+        "name": "ex7.12",
+        "testCases": [
+          {
+            "input": "7\n9\n10\n5\n2\n2",
+            "output": "7 e 9: 7 \u003c\u003d 9\n10 e 5: 5 \u003c\u003d 10\n2 e 2: 2 \u003c\u003d 2"
+          }
+        ]
+      },
+      {
+        "name": "ex7.13",
+        "testCases": [
+          {
+            "input": "9\n5\n1\n8\n7\n6\n3\n3\n3",
+            "output": "9, 5 e 1: 1 \u003c\u003d 5 \u003c\u003d 9\n8, 7 e 6: 6 \u003c\u003d 7 \u003c\u003d 8\n3, 3 e 3: 3 \u003c\u003d 3 \u003c\u003d 3"
+          }
+        ]
+      },
+      {
+        "name": "ex7.14",
+        "testCases": [
+          {
+            "input": "7\n9\n9\n7\n8\n2\n6\n4\n9\n9",
+            "output": "7 e 9: 7 \u003c\u003d 9\n9 e 7: 9 \u003e\u003d 7\n8 e 2: 2 \u003c\u003d 8\n6 e 4: 6 \u003e\u003d 4\n9 e 9: 9 \u003c\u003d 9"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo08Ponteiros",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex8.1",
+        "testCases": [
+          {
+            "input": "3\n6\n7.6\n5\n4\n3\n9.8\n3\n4\n7",
+            "output": "Somatorio: 52.40\nMedia: 5.24"
+          }
+        ]
+      },
+      {
+        "name": "ex8.2",
+        "testCases": [
+          {
+            "input": "6\n19",
+            "output": "Antes:\n    n1: 6\n    n2: 19\nDepois:\n    n1: 19\n    n2: 6"
+          }
+        ]
+      },
+      {
+        "name": "ex8.3",
+        "testCases": [
+          {
+            "input": "12456",
+            "output": "12456 segundo(s) corresponde(m) a:\n    3 hora(s)\n    27 minuto(s)\n    36 segundo(s)"
+          }
+        ]
+      },
+      {
+        "name": "ex8.4",
+        "testCases": [
+          {
+            "input": "123\n2019",
+            "output": "O dia 123 do ano 2019 cai no dia 3 do mes 5."
+          },
+          {
+            "input": "123\n2016",
+            "output": "O dia 123 do ano 2016 cai no dia 2 do mes 5."
+          }
+        ]
+      },
+      {
+        "name": "ex8.5",
+        "testCases": [
+          {
+            "input": "2\n3\n5\n7\n2\n3\n9\n1\n2\n8\n3",
+            "output": "O valor 3 foi encontrado na posicao 1."
+          },
+          {
+            "input": "2\n3\n5\n7\n2\n3\n9\n1\n2\n8\n15",
+            "output": "O valor 15 nao foi encontrado."
+          }
+        ]
+      },
+      {
+        "name": "ex8.6",
+        "testCases": [
+          {
+            "input": "2\n3\n4\n5\n6\n2\n2\n2\n2\n2",
+            "output": "2.00 x 2.00 \u003d 4.00\n3.00 x 2.00 \u003d 6.00\n4.00 x 2.00 \u003d 8.00\n5.00 x 2.00 \u003d 10.00\n6.00 x 2.00 \u003d 12.00"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo09CaracteresStrings",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex9.1",
+        "testCases": [
+          {
+            "input": "essa eh uma string",
+            "output": "e, s, s, a."
+          }
+        ]
+      },
+      {
+        "name": "ex9.2",
+        "testCases": [
+          {
+            "input": "ola, como vai, tudo bem?",
+            "output": "Primeiro caractere: o\nUltimo caractere: ?\nNumero de caracteres: 24"
+          }
+        ]
+      },
+      {
+        "name": "ex9.3",
+        "testCases": [
+          {
+            "input": "um dois tres",
+            "output": "u, \u0027 \u0027, o, s, t, e"
+          }
+        ]
+      },
+      {
+        "name": "ex9.4",
+        "testCases": [
+          {
+            "input": "um dois tres",
+            "output": "m, d, i, \u0027 \u0027, r, s"
+          }
+        ]
+      },
+      {
+        "name": "ex9.5",
+        "testCases": [
+          {
+            "input": "Fernanda",
+            "output": "Fernanda\nFernanda\nFernanda\nFernanda\nFernanda"
+          }
+        ]
+      },
+      {
+        "name": "ex9.6",
+        "testCases": [
+          {
+            "input": "Aurora",
+            "output": "Aurora\nAurora\nAurora\nAurora\nAurora\nAurora"
+          }
+        ]
+      },
+      {
+        "name": "ex9.7",
+        "testCases": [
+          {
+            "input": "Joao\nMaria\nFernanda\nDavid\nRafaela\nRafaela\nRenata\nCecilia\nJoana\nZelia",
+            "output": "Joao - Maria: ORDEM CRESCENTE\nFernanda - David: ORDEM DECRESCENTE\nRafaela - Rafaela: IGUAIS\nRenata - Cecilia: ORDEM DECRESCENTE\nJoana - Zelia: ORDEM CRESCENTE"
+          }
+        ]
+      },
+      {
+        "name": "ex9.8",
+        "testCases": [
+          {
+            "input": "Luiz\nEverton\nBreno",
+            "output": "Breno, Everton e Luiz"
+          }
+        ]
+      },
+      {
+        "name": "ex9.9",
+        "testCases": [
+          {
+            "input": "abacate verde",
+            "output": "Invertida: edrev etacaba"
+          }
+        ]
+      },
+      {
+        "name": "ex9.10",
+        "testCases": [
+          {
+            "input": "vou comprar um lanche",
+            "output": "21 caractere(s)!"
+          }
+        ]
+      },
+      {
+        "name": "ex9.11",
+        "testCases": [
+          {
+            "input": "a\ncamarao assado\nmas que cabelo sujo!\nfim",
+            "output": "\"camarao assado\" tem 5 ocorrencia(s) do caractere \u0027a\u0027\nFrase: \"mas que cabelo sujo!\" tem 2 ocorrencia(s) do caractere \u0027a\u0027\nFrase:"
+          }
+        ]
+      },
+      {
+        "name": "ex9.12",
+        "testCases": [
+          {
+            "input": "UI, QUE medo DO white walker!",
+            "output": "A/a: 1\nB/b: 0\nC/c: 0\nD/d: 2\nE/e: 4"
+          }
+        ]
+      },
+      {
+        "name": "ex9.13",
+        "testCases": [
+          {
+            "input": "UI, QUE medo DO white walker!",
+            "output": "A/a: 1\nE/e: 4\nI/i: 2\nO/o: 2\nU/u: 2"
+          }
+        ]
+      },
+      {
+        "name": "ex9.14",
+        "testCases": [
+          {
+            "input": "Fui comprar um COMPUTADOR.",
+            "output": "FUI COMPRAR UM COMPUTADOR."
+          }
+        ]
+      },
+      {
+        "name": "ex9.15",
+        "testCases": [
+          {
+            "input": "Fui comprar um COMPUTADOR.",
+            "output": "fui comprar um computador."
+          }
+        ]
+      },
+      {
+        "name": "ex9.16",
+        "testCases": [
+          {
+            "input": "ja acabou, JESSICA?\na",
+            "output": "j cbou, JESSIC?"
+          }
+        ]
+      },
+      {
+        "name": "ex9.17",
+        "testCases": [
+          {
+            "input": "A aranha arranha a ra.",
+            "output": "Quantidade de palavras: 5"
+          }
+        ]
+      },
+      {
+        "name": "ex9.18",
+        "testCases": [
+          {
+            "input": "arara",
+            "output": "\"arara\" eh um palindromo!"
+          },
+          {
+            "input": "Arara",
+            "output": "\"Arara\" nao eh um palindromo!"
+          },
+          {
+            "input": "ArarA",
+            "output": "\"ArarA\" eh um palindromo!"
+          },
+          {
+            "input": "Macaco",
+            "output": "\"Macaco\" nao eh um palindromo!"
+          }
+        ]
+      },
+      {
+        "name": "ex9.19",
+        "testCases": [
+          {
+            "input": "Girafa\n0\n3",
+            "output": "Recorte: Gir"
+          },
+          {
+            "input": "Girafa\n5\n3",
+            "output": "Recorte: Girafa"
+          },
+          {
+            "input": "Girafa\n5\n10",
+            "output": "Recorte: Girafa"
+          },
+          {
+            "input": "Girafa\n10\n12",
+            "output": "Recorte: Girafa"
+          }
+        ]
+      },
+      {
+        "name": "ex9.20",
+        "testCases": [
+          {
+            "input": "rabanete\nbane",
+            "output": "\"bane\" esta contida em \"rabanete\""
+          },
+          {
+            "input": "Hamburguer\nHambo",
+            "output": "\"Hambo\" nao esta contida em \"Hamburguer\""
+          }
+        ]
+      },
+      {
+        "name": "ex9.21",
+        "testCases": [
+          {
+            "input": "um texto qualquer",
+            "output": "                       um texto qualquer"
+          }
+        ]
+      },
+      {
+        "name": "ex9.22",
+        "testCases": [
+          {
+            "input": "um texto qualquer",
+            "output": "                                              um texto qualquer"
+          }
+        ]
+      },
+      {
+        "name": "ex9.23",
+        "testCases": [
+          {
+            "input": "um texto qualquer",
+            "output": "++\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d++\n|| um texto qualquer ||\n++\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d++"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo10Estruturas",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex10.1",
+        "testCases": [
+          {
+            "input": "1\n2\n1990\n1\n2\n2000",
+            "output": "01/02/1990 \u003c\u003d 01/02/2000"
+          },
+          {
+            "input": "20\n3\n2000\n31\n2\n2000",
+            "output": "31/02/2000 \u003c\u003d 20/03/2000"
+          },
+          {
+            "input": "25\n2\n2019\n24\n2\n2019",
+            "output": "24/02/2019 \u003c\u003d 25/02/2019"
+          },
+          {
+            "input": "30\n1\n2000\n30\n1\n2000",
+            "output": "30/01/2000 \u003c\u003d 30/01/2000"
+          }
+        ]
+      },
+      {
+        "name": "ex10.2",
+        "testCases": [
+          {
+            "input": "1\n4\n2014",
+            "output": "O dia do ano da data 01/04/2014 eh 91."
+          },
+          {
+            "input": "1\n4\n2016",
+            "output": "O dia do ano da data 01/04/2016 eh 92."
+          }
+        ]
+      },
+      {
+        "name": "ex10.3",
+        "testCases": [
+          {
+            "input": "254783",
+            "output": "Hora correspondente: 70:46:23"
+          }
+        ]
+      },
+      {
+        "name": "ex10.4",
+        "testCases": [
+          {
+            "input": "10\n5\n3\n9",
+            "output": "(10.00 + 5.00i) + (3.00 + 9.00i) \u003d (13.00 + 14.00i)"
+          }
+        ]
+      },
+      {
+        "name": "ex10.5",
+        "testCases": [
+          {
+            "input": "1\n2\n2\n3",
+            "output": "1.00/2.00 + 2.00/3.00 \u003d 7.00/6.00\n1.00/2.00 - 2.00/3.00 \u003d -1.00/6.00\n1.00/2.00 * 2.00/3.00 \u003d 2.00/6.00\n1.00/2.00 / 2.00/3.00 \u003d 3.00/4.00"
+          }
+        ]
+      },
+      {
+        "name": "ex10.6",
+        "testCases": [
+          {
+            "input": "50\n60\n70",
+            "output": "Cor: rgb( 50, 60, 70 )"
+          },
+          {
+            "input": "-10\n-10\n-10",
+            "output": "Cor: rgb( 0, 0, 0 )"
+          },
+          {
+            "input": "260\n180\n280",
+            "output": "Cor: rgb( 255, 180, 255 )"
+          }
+        ]
+      },
+      {
+        "name": "ex10.7",
+        "testCases": [
+          {
+            "input": "50\n60\n70",
+            "output": "Cor: rgb( 50, 60, 70 )\ngetVermelho(): 50\ngetVerde(): 60\ngetAzul(): 70"
+          },
+          {
+            "input": "-10\n-10\n-10",
+            "output": "Cor: rgb( 0, 0, 0 )\ngetVermelho(): 0\ngetVerde(): 0\ngetAzul(): 0"
+          },
+          {
+            "input": "260\n180\n280",
+            "output": "Cor: rgb( 255, 180, 255 )\ngetVermelho(): 255\ngetVerde(): 180\ngetAzul(): 255"
+          }
+        ]
+      },
+      {
+        "name": "ex10.8",
+        "testCases": [
+          {
+            "input": "50\n60\n70\n-1\n600\n190",
+            "output": "Cor: rgb( 50, 60, 70 )\nCor alterada: rgb( 0, 255, 190 )"
+          }
+        ]
+      },
+      {
+        "name": "ex10.9",
+        "testCases": [
+          {
+            "input": "255\n180\n90",
+            "output": "Cor base: rgb( 255, 180, 90 )\nCor escurecida: rgb( 178, 125, 62 )"
+          }
+        ]
+      },
+      {
+        "name": "ex10.10",
+        "testCases": [
+          {
+            "input": "10\n30\n40",
+            "output": "Cor base: rgb( 10, 30, 40 )\nCor clareada: rgb( 14, 42, 57 )"
+          },
+          {
+            "input": "0\n0\n0",
+            "output": "Cor base: rgb( 0, 0, 0 )\nCor clareada: rgb( 3, 3, 3 )"
+          },
+          {
+            "input": "1\n2\n1",
+            "output": "Cor base: rgb( 1, 2, 1 )\nCor clareada: rgb( 4, 4, 4 )"
+          },
+          {
+            "input": "100\n150\n230",
+            "output": "Cor base: rgb( 100, 150, 230 )\nCor clareada: rgb( 142, 214, 255 )"
+          }
+        ]
+      },
+      {
+        "name": "ex10.11",
+        "testCases": [
+          {
+            "input": "10\n40\n60\n10",
+            "output": "(+10, +40) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+60, +10)\nArea: 1500"
+          },
+          {
+            "input": "-60\n-10\n-10\n-50",
+            "output": "(-60, -10) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (-10, -50)\nArea: 2000"
+          },
+          {
+            "input": "-60\n30\n60\n-30",
+            "output": "(-60, +30) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+60, -30)\nArea: 7200"
+          }
+        ]
+      },
+      {
+        "name": "ex10.12",
+        "testCases": [
+          {
+            "input": "10\n40\n60\n10",
+            "output": "(+10, +40) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+60, +10)\nCentro: (+35, +25)"
+          },
+          {
+            "input": "-60\n-10\n-10\n-50",
+            "output": "(-60, -10) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (-10, -50)\nCentro: (-35, -30)"
+          },
+          {
+            "input": "-60\n30\n60\n-30",
+            "output": "(-60, +30) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+60, -30)\nCentro: (+0, +0)"
+          }
+        ]
+      },
+      {
+        "name": "ex10.13",
+        "testCases": [
+          {
+            "input": "10\n40\n60\n10\n50\n-10",
+            "output": "Retangulo original:\n(+10, +40) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+60, +10)\nRetangulo movido:\n(+60, +30) \u003d\u003d\u003d\u003d\u003d|\n|               |\n|               |\n|\u003d\u003d\u003d\u003d\u003d (+110, +0)"
+          }
+        ]
+      },
+      {
+        "name": "ex10.14",
+        "testCases": [
+          {
+            "input": "-60\n30\n60\n-30\n-70\n20\n-50\n20\n60\n30\n55\n-20\n40\n-40",
+            "output": "(-70, +20): nao contido!\n(-50, +20): contido!\n(+60, +30): contido!\n(+55, -20): contido!\n(+40, -40): nao contido!"
+          }
+        ]
+      },
+      {
+        "name": "ex10.15",
+        "testCases": [
+          {
+            "input": "10\n40\n60\n10\n30\n50\n50\n20",
+            "output": "Os retangulos se interceptam!"
+          },
+          {
+            "input": "10\n40\n60\n10\n-30\n60\n20\n-10",
+            "output": "Os retangulos se interceptam!"
+          },
+          {
+            "input": "10\n40\n60\n10\n30\n100\n60\n50",
+            "output": "Os retangulos nao se interceptam!"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo11UnioesEnumeracoes",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex11.1",
+        "testCases": [
+          {
+            "input": "30\n10\n20\n10\n30\n30\n10\n10\n20\n2",
+            "output": "Original:\n\u003d\u003d\u003d\u003d\u003d Retangulo \u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+30, +10) |\n| Largura: 20        |\n| Altura: 10         |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 200\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\u003d\u003d\u003d\u003d\u003d\u003d Circulo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+30, +30) |\n| Raio: 10           |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 314\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nApos mover:\n\u003d\u003d\u003d\u003d\u003d Retangulo \u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+40, +30) |\n| Largura: 20        |\n| Altura: 10         |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 200\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\u003d\u003d\u003d\u003d\u003d\u003d Circulo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+40, +50) |\n| Raio: 10           |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 314\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nApos redimensionar:\n\u003d\u003d\u003d\u003d\u003d Retangulo \u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+50, +35) |\n| Largura: 40        |\n| Altura: 20         |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 800\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\u003d\u003d\u003d\u003d\u003d\u003d Circulo \u003d\u003d\u003d\u003d\u003d\u003d\u003d\n| Centro: (+50, +60) |\n| Raio: 20           |\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  Area: 1256\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo13Arquivos",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex13.1",
+        "testCases": [
+          {
+            "input": "",
+            "output": "Media: 6.73"
+          }
+        ]
+      },
+      {
+        "name": "ex13.2",
+        "testCases": [
+          {
+            "input": "",
+            "output": "***** (5)\n****** (6)\n******* (7)\n********* (9)\n**** (4)\n*** (3)\n********** (10)\n***** (5)"
+          }
+        ]
+      },
+      {
+        "name": "ex13.3",
+        "testCases": [
+          {
+            "input": "",
+            "output": "Numero: 7\nAbsoluto da diferenca: 3\nGerando arquivo \u0027tri1.txt\u0027...\n\nNumero: 6\nAbsoluto da diferenca: 4\nGerando arquivo \u0027tri2.txt\u0027...\n\nNumero: 5\nAbsoluto da diferenca: 5\nGerando arquivo \u0027tri3.txt\u0027...\n\nNumero: 8\nAbsoluto da diferenca: 2\nGerando arquivo \u0027tri4.txt\u0027...\n\nNumero: 4\nAbsoluto da diferenca: 6\nGerando arquivo \u0027tri5.txt\u0027...\n\nConteudo do arquivo \u0027tri1.txt\u0027:\n*\n**\n***\nConteudo do arquivo \u0027tri2.txt\u0027:\n*\n**\n***\n****\nConteudo do arquivo \u0027tri3.txt\u0027:\n*\n**\n***\n****\n*****\nConteudo do arquivo \u0027tri4.txt\u0027:\n*\n**\nConteudo do arquivo \u0027tri5.txt\u0027:\n*\n**\n***\n****\n*****\n******"
+          }
+        ]
+      }
+    ]
+  }, {
+    "description": "capitulo14Recursividade",
+    "programmingLanguage": "C",
+    "tests": [
+      {
+        "name": "ex14.1",
+        "testCases": [
+          {
+            "input": "2\n1",
+            "output": "ackermann( 2, 1 ) \u003d 5"
+          },
+          {
+            "input": "0\n1",
+            "output": "ackermann( 0, 1 ) \u003d 2"
+          },
+          {
+            "input": "2\n3",
+            "output": "ackermann( 2, 3 ) \u003d 9"
+          }
+        ]
+      },
+      {
+        "name": "ex14.2",
+        "testCases": [
+          {
+            "input": "5\n20",
+            "output": "mdc( 5, 20 ) \u003d 5"
+          },
+          {
+            "input": "15\n225",
+            "output": "mdc( 15, 225 ) \u003d 15"
+          },
+          {
+            "input": "149\n7",
+            "output": "mdc( 149, 7 ) \u003d 1"
+          }
+        ]
+      },
+      {
+        "name": "ex14.3",
+        "testCases": [
+          {
+            "input": "abracadabra",
+            "output": "Invertida: arbadacarba"
+          }
+        ]
+      }
+    ]
+  }
+]
