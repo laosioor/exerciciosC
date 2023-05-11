@@ -8,10 +8,10 @@ int lePositivo() {
     do {
         scanf(" %d", &n);
 
-        if (n < 0) {
+        if (n <= 0) {
             printf("Entre com um valor positivo: ");
         }
-    } while (n < 0);
+    } while (n <= 0);
 
     return n;
 }
