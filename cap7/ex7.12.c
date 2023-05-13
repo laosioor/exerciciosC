@@ -2,16 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void classificaDupla(int n1, int n2) {
-    printf("\n%d e %d: ", n1, n2);
-    if (n1 > n2) {
-        int t = n1;
-        n1 = n2;
-        n2 = t;
-    }
-
-    printf("%d <= %d", n1, n2);
-}
+void classificaDupla(int n1, int n2);
 
 int main() {
     int n1[3];
@@ -29,4 +20,15 @@ int main() {
         classificaDupla(n1[i], n2[i]);
     }
     return 0;
+}
+
+void classificaDupla(int n1, int n2) {
+    printf("\n%d e %d: ", n1, n2);
+    if (n1 > n2) {
+        int t = n1;
+        n1 = n2;
+        n2 = t;
+    }
+
+    printf("%d <= %d", n1, n2);
 }

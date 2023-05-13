@@ -2,13 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int ehPar(int n) {
-    return (n % 2 == 0);
-}
+int ehPar(int n);
 
-int ehDivisivel(int dividendo, int divisor) {
-    return (dividendo % divisor == 0);
-}
+int ehDivisivel(int dividendo, int divisor);
 
 int main() {
     int n1[5];
@@ -40,4 +36,12 @@ int main() {
         }
     }
     return 0;
+}
+
+int ehPar(int n) {
+    return (n % 2 == 0);
+}
+
+int ehDivisivel(int dividendo, int divisor) {
+    return (dividendo % divisor == 0);
 }

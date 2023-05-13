@@ -2,13 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void somatorioMedia( float a[], int n, float *somatorio, float *media ){
-    for (int i = 0; i < n; i++) {
-        *somatorio = *somatorio + a[i];
-    }
-
-    *media = *somatorio / n;
-}
+void somatorioMedia( float *, int, float *, float *);
 
 int main() {
     float arrayD[10];
@@ -26,4 +20,12 @@ int main() {
     printf("Media: %.2f\n", mediaArit);
 
     return 0;
+}
+
+void somatorioMedia( float a[], int n, float *somatorio, float *media ){
+    for (int i = 0; i < n; i++) {
+        *somatorio = *somatorio + a[i];
+    }
+
+    *media = *somatorio / n;
 }

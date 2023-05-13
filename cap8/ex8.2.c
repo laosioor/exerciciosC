@@ -2,11 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void trocar(int *n1, int *n2) {
-    int t = *n1;
-    *n1 = *n2;
-    *n2 = t;
-}
+void trocar(int *, int *);
 
 int main() {
     int n1;
@@ -29,4 +25,10 @@ int main() {
     printf("    n2: %d\n", n2);
 
     return 0;
+}
+
+void trocar(int *n1, int *n2) {
+    int t = *n1;
+    *n1 = *n2;
+    *n2 = t;
 }

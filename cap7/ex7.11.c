@@ -3,6 +3,35 @@
 #include <stdlib.h>
 #include <math.h>
 
+int obtemDigito(int n);
+
+int obtemNumero(int n);
+
+int calculaDigito(int n);
+
+int numeroCorreto(int n);
+
+int main() {
+    int n;
+
+    scanf(" %d", &n);
+
+    if (n >= 10 && n <= 99999) {
+        printf("Numero completo: %d\n", n);
+        printf("Numero: %d\n", obtemNumero(n));
+        printf("Digito: %d\n", obtemDigito(n));
+        printf("Digito calculado: %d\n", calculaDigito(obtemNumero(n)));
+        printf("O numero fornecido esta ");
+        if (numeroCorreto(n)) {
+            printf("correto!");
+        } else {
+            printf("incorreto!");
+        }
+    }
+    
+    return 0;
+}
+
 int obtemDigito(int n) {
     int dgt = 0;
     int alg[5];
@@ -75,25 +104,4 @@ int numeroCorreto(int n) {
     }
 
     return r;
-}
-
-int main() {
-    int n;
-
-    scanf(" %d", &n);
-
-    if (n >= 10 && n <= 99999) {
-        printf("Numero completo: %d\n", n);
-        printf("Numero: %d\n", obtemNumero(n));
-        printf("Digito: %d\n", obtemDigito(n));
-        printf("Digito calculado: %d\n", calculaDigito(obtemNumero(n)));
-        printf("O numero fornecido esta ");
-        if (numeroCorreto(n)) {
-            printf("correto!");
-        } else {
-            printf("incorreto!");
-        }
-    }
-    
-    return 0;
 }

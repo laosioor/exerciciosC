@@ -2,6 +2,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int lePositivo();
+
+int somatorio(int n);
+
+int main() {
+    int n[5];
+
+    for (int i = 0; i < 5; i++) {
+        printf("n[%d]: ", i);
+        n[i] = lePositivo();
+    }
+
+    for (int i = 0; i < 5; i++) {
+        printf("Somatorio de 1 a %d: %d\n", n[i], somatorio(n[i]));
+    }
+
+    return 0;
+}
+
 int lePositivo() {
     int n;
 
@@ -23,19 +42,4 @@ int somatorio(int n) {
     }
 
     return s;
-}
-
-int main() {
-    int n[5];
-
-    for (int i = 0; i < 5; i++) {
-        printf("n[%d]: ", i);
-        n[i] = lePositivo();
-    }
-
-    for (int i = 0; i < 5; i++) {
-        printf("Somatorio de 1 a %d: %d\n", n[i], somatorio(n[i]));
-    }
-
-    return 0;
 }

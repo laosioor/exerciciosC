@@ -3,6 +3,20 @@
 #include <stdlib.h>
 #include <math.h>
 
+int calculaDigito(int n);
+
+int main() {
+    int n;
+
+    printf("Numero: ");
+    scanf(" %d", &n);
+    
+    if (n > 0 && n < 9999) {
+        printf("Digito verificador de %d: %d\n", n, calculaDigito(n));
+    }
+    return 0;
+}
+
 int calculaDigito(int n) {
     int alg[4];
     int soma = 0;
@@ -27,16 +41,4 @@ int calculaDigito(int n) {
     }
 
     return dgtVer;
-}
-
-int main() {
-    int n;
-
-    printf("Numero: ");
-    scanf(" %d", &n);
-    
-    if (n > 0 && n < 9999) {
-        printf("Digito verificador de %d: %d\n", n, calculaDigito(n));
-    }
-    return 0;
 }

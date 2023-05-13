@@ -2,6 +2,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int ehPrimo(int n);
+
+int main() {
+    for (int i = 1; i <= 20; i++) {
+        printf("%d: ", i);
+
+        if (ehPrimo(i)) {
+            printf("eh primo\n");
+        } else {
+            printf("nao eh primo\n");
+        }
+    }
+    return 0;
+}
+
 int ehPrimo(int n) {
     int s = 0;
     for (int i = 1; i <= n; i++) {
@@ -18,16 +33,4 @@ int ehPrimo(int n) {
     } else {
         return 1;
     }
-}
-int main() {
-    for (int i = 1; i <= 20; i++) {
-        printf("%d: ", i);
-
-        if (ehPrimo(i)) {
-            printf("eh primo\n");
-        } else {
-            printf("nao eh primo\n");
-        }
-    }
-    return 0;
 }

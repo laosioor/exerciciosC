@@ -3,26 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-void imprimeDuplaClassificada(int n1, int n2, bool emOrdemCrescente) {
-    char simb = '<';
-
-    printf("\n%d e %d: ", n1, n2);
-    
-    if (n1 > n2) {
-        int t = n1;
-        n1 = n2;
-        n2 = t;
-    }
-
-    if (!emOrdemCrescente) {
-        int t = n2;
-        n2 = n1;
-        n1 = t;
-        simb = '>';
-    }
-
-    printf("%d %c= %d", n1, simb, n2);
-}
+void imprimeDuplaClassificada(int, int, bool);
 
 int main() {    
     int n1[5];
@@ -44,4 +25,25 @@ int main() {
         }
     }
     return 0;
+}
+
+void imprimeDuplaClassificada(int n1, int n2, bool emOrdemCrescente) {
+    char simb = '<';
+
+    printf("\n%d e %d: ", n1, n2);
+    
+    if (n1 > n2) {
+        int t = n1;
+        n1 = n2;
+        n2 = t;
+    }
+
+    if (!emOrdemCrescente) {
+        int t = n2;
+        n2 = n1;
+        n1 = t;
+        simb = '>';
+    }
+
+    printf("%d %c= %d", n1, simb, n2);
 }

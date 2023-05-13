@@ -3,17 +3,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-float areaCirculo(float raio) {
-    const float pi = acos(-1);
+float areaCirculo(float raio);
 
-    return pi * pow(raio, 2);
-}
-
-float circunferenciaCirculo(float raio) {
-    const float pi = acos(-1);
-
-    return 2 * pi * raio; 
-}
+float circunferenciaCirculo(float raio);
 
 int main() {
     float raio;
@@ -25,4 +17,16 @@ int main() {
     printf("Circunferencia = %.2f\n", circunferenciaCirculo(raio));
 
     return 0;
+}
+
+float areaCirculo(float raio) {
+    const float pi = acos(-1);
+
+    return pi * pow(raio, 2);
+}
+
+float circunferenciaCirculo(float raio) {
+    const float pi = acos(-1);
+
+    return 2 * pi * raio; 
 }

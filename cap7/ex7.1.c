@@ -2,13 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int absoluto(int n) {
-    if (n < 0) {
-        n = -n;
-    }
-
-    return n;
-}
+int absoluto(int n);
 
 int main() {
     int numeros[5];
@@ -22,6 +16,13 @@ int main() {
         printf("absoluto(%d) = %d\n", numeros[i], absoluto(numeros[i]));
     }
 
-
     return 0;
+}
+
+int absoluto(int n) {
+    if (n < 0) {
+        n = -n;
+    }
+
+    return n;
 }

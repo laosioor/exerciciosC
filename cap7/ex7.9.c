@@ -3,6 +3,54 @@
 #include <stdlib.h>
 #include <math.h>
 
+int lePositivo();
+
+int ehTriangulo(int ladoA, int ladoB, int ladoC);
+
+int tipoTriangulo(int ladoA, int ladoB, int ladoC);
+
+int main() {
+    int la[5];
+    int lb[5];
+    int lc[5];
+
+    for (int i = 0; i < 5; i++) {
+        printf("LadoA[%d]: ", i);
+        la[i] = lePositivo();
+
+        printf("LadoB[%d]: ", i);
+        lb[i] = lePositivo();
+
+        printf("LadoC[%d]: ", i);
+        lc[i] = lePositivo();
+    }
+
+    printf("\n");
+
+    for (int i = 0; i < 5; i++) {
+        printf("Valores %d, %d e %d: ", la[i], lb[i], lc[i]);
+
+        if (!ehTriangulo(la[i], lb[i], lc[i])) {
+            printf("nao formam um triangulo\n");
+        } else {
+            printf("triangulo ");
+            
+            switch (tipoTriangulo(la[i], lb[i], lc[i])) {
+                case 1:
+                    printf("equilatero\n");
+                    break;
+                case 2:
+                    printf("isosceles\n");
+                    break;
+                case 3:
+                    printf("escaleno\n");
+                    break;
+            }
+        }
+    }
+    return 0;
+}
+
 int lePositivo() {
     int n;
 
@@ -45,46 +93,4 @@ int tipoTriangulo(int ladoA, int ladoB, int ladoC) {
     }
 
     return r;
-}
-
-int main() {
-    int la[5];
-    int lb[5];
-    int lc[5];
-
-    for (int i = 0; i < 5; i++) {
-        printf("LadoA[%d]: ", i);
-        la[i] = lePositivo();
-
-        printf("LadoB[%d]: ", i);
-        lb[i] = lePositivo();
-
-        printf("LadoC[%d]: ", i);
-        lc[i] = lePositivo();
-    }
-
-    printf("\n");
-
-    for (int i = 0; i < 5; i++) {
-        printf("Valores %d, %d e %d: ", la[i], lb[i], lc[i]);
-
-        if (!ehTriangulo(la[i], lb[i], lc[i])) {
-            printf("nao formam um triangulo\n");
-        } else {
-            printf("triangulo ");
-            
-            switch (tipoTriangulo(la[i], lb[i], lc[i])) {
-                case 1:
-                    printf("equilatero\n");
-                    break;
-                case 2:
-                    printf("isosceles\n");
-                    break;
-                case 3:
-                    printf("escaleno\n");
-                    break;
-            }
-        }
-    }
-    return 0;
 }
