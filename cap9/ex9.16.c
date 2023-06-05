@@ -15,7 +15,7 @@ int main() {
     string[strlen(string)-1] = '\0';
 
     printf("Caractere: ");
-    scanf(" %c", c);
+    scanf(" %c", &c);
 
     removerLetra(string, c);
 
@@ -27,7 +27,9 @@ int main() {
 void removerLetra( char *str, char c ) {
     for (int i = 0; i < strlen(str); i++) {
         if (str[i] == c || str[i] == toupper(c)) {
-            str[i] = 0;
+            for (int j = i; j < strlen(str); j++) {
+                str[j] = str[j+1];
+            }
         }
     }
 }
